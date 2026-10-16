@@ -13,6 +13,8 @@ int main(){
 
     p1.describe();
 
+    p1.length(p1.get_chain());
+
     Gene g1;
 
     g1.set_name("BRCA1");

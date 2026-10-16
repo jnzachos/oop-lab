@@ -30,3 +30,10 @@ std::string Protein::get_chain() const{
 void Protein::describe() const{
     std::cout << "protein " << name << " " << chain << "\n";
 }
+
+void Protein::length(std::string chain) const{
+
+    int len = chain.length();
+
+    std::cout << "Length of protein chain: " << len << "\n";
+}
