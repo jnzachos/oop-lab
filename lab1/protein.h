@@ -23,6 +23,6 @@ public:
 
     void describe() const;
 
-    void length(std::string chain) const;
+    void length() const;
 
 };

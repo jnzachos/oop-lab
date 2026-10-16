@@ -13,7 +13,7 @@ int main(){
 
     p1.describe();
 
-    p1.length(p1.get_chain());
+    p1.length();
 
     Gene g1;
 
